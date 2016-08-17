@@ -217,34 +217,55 @@ input[type=submit] {
 /* Rules for screen widths at 980px or lower */
 
 @media screen and (max-width: 980px) {
-	
-
+	.main-section {
+		margin-left: 120px;
+		width: 430px;
 	}
 
-/* Rules for screen widths at 768px or lower */	
-
-@media screen and (max-width: 768px) {
-	/*#masthead {
-		
+	.work {
 		width: 100%;
-		position: initial;
-		overflow: inherit;
-		
 	}
+
+	.sidebar {
+		float: left;
+		margin-left: 40px;
+	}
+
 	#logo {
-		width:100%;
+		margin-left: 120px;
 	}
 
 	nav {
+		padding-right: 120px;
+		
+	}
 
-		width
-		width: auto;
-		padding: 10px;
-		margin-top: 0;
-		text-align: center;
-		word-spacing: 100px;
+	.auth-image {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	p {
 		float: none;
-		clear: both;*/
+		clear: both;
+	}
+/* Rules for screen widths at 768px or lower */	
+
+@media screen and (max-width: 768px) {
+	#masthead {
+		
+		width: ;
+		position: static;
+		
+		
+	}
+	#logo {
+		margin-left: 10px;
+	}
+
+	nav {
+		padding-right: 15px;
+		
 	}
 	
 
@@ -261,9 +282,10 @@ input[type=submit] {
 	.main-section {
 		background-color: ;
 		width: 100%;
+		max-width: 768px;
 	}
 	.work {
-		width: 100%;
+		width: 47%;
 	}
 	.sidebar {
 		float: none;
@@ -278,19 +300,19 @@ input[type=submit] {
 	/* Index.html @ 640px */
 
 	.auth-image {
-		width: 100%;
+		width: 50%;
 		padding-bottom: 20px;
 	}
 
 	p {
 		float: none;
-		clear: both;
+
 	}
 	/* Index.html @ 640px */
 
 	/* contact.html @ 640px "No Changes" */
 
-	}
+	
 
 
 
