@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../assets/img/back.jpg) no-repeat center top;
+	background: url(assignment2/assets/img/back.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap {	
-	background: url(../assets/img/work.jpg) no-repeat center top;
+	background: url(assignment2/assets/img/work.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {	
-	background: url(../assets/img/about.jpg) no-repeat center top;
+	background: url(assignment2/assets/img/about.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
