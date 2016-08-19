@@ -216,104 +216,67 @@ input[type=submit] {
 
 /* Rules for screen widths at 980px or lower */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px)  {
 	.main-section {
-		margin-left: 120px;
-		width: 430px;
+		max-width: 420px;
 	}
-
+	#main-container {
+		padding-top: 130px;
+	}
+	.container {
+		padding: 0 20px;
+		max-width: 768px;
+	}
+	
 	.work {
 		width: 100%;
 	}
 
-	.sidebar {
-		float: left;
-		margin-left: 40px;
-	}
-
-	#logo {
-		margin-left: 120px;
-	}
-
-	nav {
-		padding-right: 120px;
-		
-	}
-
 	.auth-image {
 		width: 100%;
-		padding-bottom: 20px;
+		margin-bottom: 20px;
 	}
-
-	p {
-		float: none;
-		clear: both;
-	}
+}
+	
 /* Rules for screen widths at 768px or lower */	
 
 @media screen and (max-width: 768px) {
-	#masthead {
-		
-		width: ;
+	/*#masthead {
 		position: static;
-		
-		
-	}
-	#logo {
-		margin-left: 10px;
-	}
-
-	nav {
-		padding-right: 15px;
-		
-	}
+	}*/
 	
-
-	 .container {
-		width: auto;
-		max-width: 768px;
-	}
-	
-	#main-container {
-		padding-top: 0px;
-		margin: 10px 10px 20px 10px;
-	}
-
 	.main-section {
-		background-color: ;
-		width: 100%;
-		max-width: 768px;
+		max-width: 100%;
+		
 	}
+
+	#main-container {
+		overflow: auto;
+	}
+	
+	.sidebar {
+		max-width: 100%;
+		margin-bottom: 40px;
+		
+	}
+	
 	.work {
 		width: 47%;
+		margin-bottom: 10px;
 	}
-	.sidebar {
-		float: none;
-		clear: both;
-		max-width: inherit
+
+	.work:nth-child(even) {
+		margin-right: 0;
 	}
-	body {
-		height: auto;
+
+	.work:nth-child(odd) {
+		float: right;	
 	}
-	/* Portfolio.html @ 640px */
-	
-	/* Index.html @ 640px */
 
 	.auth-image {
 		width: 50%;
-		padding-bottom: 20px;
 	}
-
-	p {
-		float: none;
-
-	}
-	/* Index.html @ 640px */
-
-	/* contact.html @ 640px "No Changes" */
-
-	
-
+}
 
 
 /* Rules for screen widths at 640px or lower */	
@@ -321,67 +284,46 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
 /* Portfolio.html @ 640px */
 	#masthead {
-		
-		width: 100%;
-		position: initial;
-		overflow: inherit;
+		position: static;
+		margin-bottom: 20px;
 		
 	}
+
+	header.container {
+		padding: 0;
+	}
+
 	#logo {
 		width:100%;
 	}
 
 	nav {
-		width: auto;
-		padding: 10px;
-		margin-top: 0;
 		text-align: center;
-		word-spacing: 100px;
-		float: none;
-		clear: both;
+		width: 100%;
+		margin: 15px 0;
+		
 	}
-	
 
-	 .container {
-		width: auto;
-		max-width: 640px;
+	nav a {
+		width: 20%;
+		padding-left: 0;
+		margin-left: 0;
 	}
 	
 	#main-container {
-		padding-top: 0px;
-		margin: 10px 10px 20px 10px;
+		padding-top: 0;
 	}
 
-	.main-section {
-		background-color: ;
-		width: 100%;
-	}
 	.work {
 		width: 100%;
 	}
-	.sidebar {
-		float: none;
-		clear: both;
-		max-width: inherit
-	}
-	body {
-		height: auto;
-	}
-	/* Portfolio.html @ 640px */
 	
-	/* Index.html @ 640px */
-
 	.auth-image {
 		width: 100%;
-		padding-bottom: 20px;
 	}
 
-	p {
-		float: none;
-		clear: both;
-	}
+}
 	/* Index.html @ 640px */
 
-	/* contact.html @ 640px "No Changes" */
 
 
